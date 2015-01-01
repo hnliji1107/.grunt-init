@@ -3,7 +3,7 @@
     require('load-grunt-tasks')(grunt);
     
     // 工作根目录
-    var workspace = 'workspace';
+    var workspace = '{%=workSpace%}';
 
     // 插件配置
     grunt.initConfig({

@@ -23,7 +23,8 @@ var
 // The grunt argument is a reference to grunt, containing all the grunt methods and libs. The init argument is an object containing methods and properties specific to this init template. The done argument is a function that must be called when the init template is done executing.
 exports.template = function(grunt, init, done) {
 	init.process({}, [
-		init.prompt('moduleMark', 'develop')
+		init.prompt('moduleMark', 'develop'),
+		init.prompt('workSpace', 'backbone-practice')
 	], function(err, props) {
 		//默认生成的时间戳
 		props.timeStamp = spliceTimeString;
