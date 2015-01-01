@@ -1,0 +1,4 @@
+{
+	"grunt/Gruntfile.js": "blog-task/Gruntfile.js",
+	"grunt/package.json": "blog-task/package.json"
+}
