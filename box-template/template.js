@@ -4,11 +4,10 @@
 exports.description = '无线开发环境初始化';
 
 // If specified, this optional extended description will be displayed before any prompts are displayed. This is a good place to give the user a little help explaining naming conventions, which prompts may be required or optional, etc.
-exports.notes = '\n1、进入自己的某个目录；\
-				 \n\n2、在该目录下运行“grunt-init yourTemplate”命令并填写一些项目信息；\
-				 \n（其中“yourTemplate”是自定义的项目模板名称）；\
-				 \n3、在该目录下运行“npm install”命令安装node插件包；\
-				 \n4、进入项目目录运行“grunt”命令预览项目静态文件。'
+exports.notes = '\n1、进入自己的某个目录\
+				 \n2、在该目录下运行“grunt-init box-template”命令并填写一些项目信息\
+				 \n3、之后在该目录下运行“npm install”命令安装依赖包\
+				 \n4、最后在该目录下运行“grunt”命令预览项目静态文件'
 
 // If this optional (but recommended) wildcard pattern or array of wildcard patterns is matched, Grunt will abort with a warning that the user can override with --force. This is very useful in cases where the init template could potentially override existing files.
 

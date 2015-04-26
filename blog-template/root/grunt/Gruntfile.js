@@ -4,7 +4,7 @@ module.exports = function(grunt) {
     
     // Project configuration.
     grunt.initConfig({
-        rootPath: '{%=blogPath%}',
+        rootPath: '{%= BlogName %}/',
         jsBasePath: '<%= rootPath %>js/',
         cssBasePath: '<%= rootPath %>css/',
         htmlBasePath: '<%= rootPath %>templates/',
@@ -66,11 +66,11 @@ module.exports = function(grunt) {
         // https://github.com/gruntjs/grunt-contrib-watch
         watch: {
             files: ['<%= jsBasePath %>*.js', '<%= cssBasePath %>*.css'],
-            tasks: ['jshint', 'uglify', 'cssmin', 'watch']
+            tasks: [/*'jshint', */'uglify', 'cssmin', 'watch']
         }
     });
 
     // Default task(s).
-    grunt.registerTask('default', ['jshint', 'uglify', 'cssmin', 'watch']);
+    grunt.registerTask('default', [/*'jshint', */'uglify', 'cssmin', 'watch']);
 
 };
