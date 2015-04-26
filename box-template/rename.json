@@ -1,0 +1,7 @@
+{
+	"grunt/Gruntfile.js": "Gruntfile.js",
+	"grunt/package.json": "package.json",
+	"module.html": "{%=ModuleName%}/module.html",
+	"css/module.css": "{%=ModuleName%}/css/module.css",
+	"js/module.js": "{%=ModuleName%}/js/module.js"
+}

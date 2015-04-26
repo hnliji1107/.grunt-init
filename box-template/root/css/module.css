@@ -1,0 +1,11 @@
+/*
+ * @Author      {%=AuthorName%}
+ * @Email       {%=AuthorEmail%}
+ * @Date        {%=timeString%}
+ * @Description {%=Description%}
+ * !!cmd:compress=true
+ */
+
+.{%=ModuleName%} {
+	width: 1190px;
+}
