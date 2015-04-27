@@ -1,4 +1,4 @@
 .grunt-init
 ===========
 
-grunt初始化配置
+grunt-init构建本地项目脚手架
